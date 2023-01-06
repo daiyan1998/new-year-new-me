@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Position : Common CSS */
+
+.text-left {
+    text-align: left;
+}
+
+.pos-flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.m-top10 {
+    margin-top: 10em;
+}
+
+.m-bottom3 {
+    margin-bottom: 3em;
+}
+
+.wd-30 {
+    width: 30em;
+}
+
+/* Common Css */
+.h1-bold{
+    font-size: 6em;
+    font-weight: 800;
+}
+
+.h2-bold {
+    font-size: 3em;
+    font-weight: 800;
+}
+
+.h2-bold-white {
+    font-size: 3em;
+    font-weight: 800;
+    color: white;
+}
+.h3-bold {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+
+.p1-text {
+    color: gray;
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+
+.p2-text {
+    color: gray;
+    line-height: 1.5em;
+    font-size: 2em;
+}
+
+.btn {
+    color: white;
+    border: none;
+    background-color: tomato;
+    width: 175px;
+    height: 70px;
+    font-size: 25px;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+.btn2 {
+    color: tomato;
+    border: none;
+    background-color: white;
+    width: 175px;
+    height: 70px;
+    font-size: 25px;
+    padding: 20px 25px;
+    border-radius: 5px;
+}
+
+/* ---------------Header--------------- */
+header {
+    background-image: url(./images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60em;
+    position: relative;
+}
+.header-container {
+    text-align: right;
+    position: absolute;
+    width: 40em;
+    left: 55%;
+    top: 35%;
+}
+
+/* -----------------Main---------------- */
+
+main {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.mid-container {
+    gap: 10em;
+}
+
+
+.employe {
+    width: 40em;
+    height: auto;
+}
+
+.check-icon {
+    width: 1.5em;
+    height: auto;
+    margin-right: 5px;
+}
+
+.check-list p > span {
+    vertical-align: super;
+}
+
+
+/* -------------My plan---------------- */
+.my-plan > h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.my-plan-cards {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    text-align: center;
+}
+
+.my-plan-cards .plan-card img {
+    margin-bottom: 1em;
+}
+
+.call-now {
+    background:linear-gradient(90deg, rgba(249, 101, 74, 0.766) 24%,rgba(255, 116, 92, 0.829) 39%, rgba(255, 255, 255, 0) 100%),url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 80em;
+    height: 20em;
+    margin: 10em auto 0;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.call-now .call-now-des {
+    width: 80%;
+    margin: 0 auto;
+}
