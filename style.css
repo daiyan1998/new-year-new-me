@@ -130,14 +130,12 @@ main {
 }
 
 .check-icon {
-    width: 1.5em;
-    height: auto;
-    margin-right: 5px;
+    color: green;
 }
 
-.check-list p > span {
+/* .check-list p > span {
     vertical-align: super;
-}
+} */
 
 
 /* -------------My plan---------------- */
